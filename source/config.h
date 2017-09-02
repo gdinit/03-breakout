@@ -80,7 +80,7 @@ constexpr int32	C_WIN_H = { 480 };
 // DEBUG STUFF
 // NOT IN USE (Using CMake build type instead) constexpr bool	DEBUG { 1 };
 // show in-game FPS/Stats overlay
-constexpr bool	C_DEBUG_SHOW_OVERLAY { 1 };
+constexpr bool	C_DEBUG_SHOW_OVERLAY { 0 };
 // print extra messages in game console window
 constexpr bool	C_D_CO { 0 };
 // dynamic fps monitoring & adjustment => report to the console
