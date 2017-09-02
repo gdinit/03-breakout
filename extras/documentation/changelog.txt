@@ -1,0 +1,6 @@
+TODO: Add automated git log import functionality for changelog
+
+Current Status:
+* Only one level functional.
+* Credits screen not ready & button actually start a new game :)
+* Code is messy.
