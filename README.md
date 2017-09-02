@@ -16,7 +16,7 @@ Here is two!
 
 Install
 -------
-TODO:There is a pre-release Windows binary available under releases.
+There is a pre-release Windows binary available under releases.
 
 Credits
 -------
