@@ -1,7 +1,6 @@
 # BREAKOUT
 ### A clone of the Classic Game Breakout by gdinit
-=============
-***This Software is in alpha phase!***
+***This Software is in pre-release phase!***
 
 Intro
 --------------
@@ -16,7 +15,7 @@ Here is two!
 
 Install
 -------
-TODO:There is a Windows binary available under releases.
+TODO:There is a pre-release Windows binary available under releases.
 
 Credits
 -------
