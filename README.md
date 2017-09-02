@@ -10,6 +10,7 @@ This game is based on the Atari 2600 CX2622 variant and not the
 Screenshots
 --------------
 Here is two!
+
 <img src="extras/github_readme_screenshots/title.png" height="512" alt="TitleScreenshot"/>
 <img src="extras/github_readme_screenshots/gameplay.png" height="512" alt="GameplayScreenshot"/> 
 
