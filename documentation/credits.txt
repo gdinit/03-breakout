@@ -36,6 +36,7 @@ If you have any comments, correction requests, please let me know by creating an
 	Rosme
 	danhedron
 	_Dbug_
+	StonedXander
 	@ http://chat.sfml-dev.org/
 
 * Assert macro code taken from therocode's Thero project.
