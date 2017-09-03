@@ -3,7 +3,10 @@ cmake_minimum_required(VERSION 3.1 FATAL_ERROR)
 set (CMAKE_CXX_STANDARD 11)
 
 project(breakout)
-#set_target_properties(breakout PROPERTIES LINKER_LANGUAGE CXX)
+
+SET(PROJECT_STATIC_RUNTIME FALSE CACHE BOOL "Use statically linked standard/runtime libraries?")
+mark_as_advanced	(PROJECT_STATIC_RUNTIME)
+
 SET(PROJECT_STATIC_RUNTIME TRUE CACHE BOOL "Use statically linked standard/runtime libraries?")
 
 list(APPEND CMAKE_MODULE_PATH	"${PROJECT_SOURCE_DIR}/cmake/modules")
