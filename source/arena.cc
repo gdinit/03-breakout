@@ -142,6 +142,25 @@ void Arena::newRound( sf::Vector2f res, int32 level ) {
 	m_hgRightBar = 0;
 }
 
+void Arena::newLife( sf::Vector2f res, int32 level ) {
+	#if defined DBG
+	std::cout << "[DEBUG] (" << m_myObjNameStr << ") " <<
+	"newLife() has been triggered.\tLevel is: " << level << "\n";
+	#endif
+	m_tmpRes = res;
+	topBar.newRound( res );
+	leftBar.newRound( res );
+	rightBar.newRound( res );
+	// createCells( res, level );
+	paddle.newRound( res );
+	ball.newRound( res );
+	// Hourglass resets
+	m_hgPaddle = 0;
+	m_hgTopBar = 0;
+	m_hgLeftBar = 0;
+	m_hgRightBar = 0;
+}
+
 void Arena::createCells( sf::Vector2f res, int32 level ) {
 	if ( level != 1 ) {
 		std::cout << "\nERROR Only game level LEVEL 1 has been "
@@ -424,7 +443,7 @@ void Arena::colDetRespondBallGoal( void )
 
 		if ( GLOBALS->livesLeft > 0 ) {
 			GLOBALS->livesLeft--;
-			newRound( m_tmpRes, 1 );
+			newLife( m_tmpRes, 1 );
 		} else {
 			// Game over!
 			GLOBALS->returnToMainMenuRequested = 1;

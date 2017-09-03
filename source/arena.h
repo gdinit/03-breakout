@@ -40,6 +40,7 @@ class Arena : public sf::Transformable, public sf::Drawable
 		void	draw( sf::RenderTarget &target
 		, sf::RenderStates states ) const;
 		void	newRound( sf::Vector2f res, int32 level );
+		void	newLife( sf::Vector2f res, int32 level );
 		void	createCells( sf::Vector2f res, int32 level );
 		void	colDetRespond( void );
 		void	colDetRespondBallPaddle( void );
