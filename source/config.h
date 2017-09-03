@@ -121,7 +121,8 @@ constexpr float		C_BALL_H { 7.f };
 constexpr float		C_BALL_SPAWN_POS { -100.f };
 constexpr float		C_BALL_SPEED { 0.72f };
 // PADDLE
-constexpr float		C_PADDLE_MOVSTEP { 7.4f };
+// constexpr float		C_PADDLE_MOVSTEP { 7.4f };
+constexpr float		C_PADDLE_MOVSTEP { 7.9f };
 constexpr float		C_PADDLE_W { 60.f };
 constexpr float		C_PADDLE_H { 10.f };
 constexpr int32		C_LIVES = { 5 };
