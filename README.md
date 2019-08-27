@@ -1,3 +1,4 @@
+[![Build Status](http://jenkins.kzalloc.org/buildStatus/icon?style=plastic&job=03-breakout)](http://jenkins.kzalloc.org/job/03-breakout/)
 # BREAKOUT
 ### A clone of the Classic Game Breakout by gdinit
 ***This Software is in pre-release phase!***
