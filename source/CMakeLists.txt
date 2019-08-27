@@ -36,7 +36,7 @@ if(CMAKE_COMPILER_IS_GNUCXX)
 endif()
 
 include_directories(${CMAKE_CURRENT_SOURCE_DIR} ${SFML_INCLUDE_DIR})
-include(cotire)
+#include(cotire)
 
 IF (${CMAKE_SYSTEM_NAME} MATCHES "Darwin")
 	INCLUDE_DIRECTORIES("/Library/Frameworks/")
@@ -54,7 +54,7 @@ add_executable(
 	${CMAKE_SOURCE_DIR}/extras/exe_icon_for_windows/resource.rc)
 set_property(DIRECTORY ${CMAKE_CURRENT_SOURCE_DIR} PROPERTY VS_STARTUP_PROJECT ${PROJECT_NAME})
 target_link_libraries(${PROJECT_NAME} ${SFML_LIBRARIES} ${SFML_DEPENDENCIES})
-cotire(${PROJECT_NAME})
+#cotire(${PROJECT_NAME})
 
 # this is in trunk as of 2016Dec - let's just keep it here till it makes to the release
 # set_target_properties(${PROJECT_NAME} PROPERTIES VS_DEBUGGER_WORKING_DIRECTORY "${PROJECT_BINARY_DIR}/release.win/Debug")
